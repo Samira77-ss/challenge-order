@@ -8,3 +8,44 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+.App img {
+  border-radius: 15px 15px 0 0;
+}
+.App h1 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.App p {
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.6;
+  margin: 0px 20px 20px;
+  padding: 35px;
+  position: relative;
+  top: -20px;
+}
+.App .container {
+  text-align: center;
+  width: 600px;
+  padding: 20px;
+  margin: 100px auto;
+}
+.App .order {
+  background-color: beige;
+  width: 450px;
+  border-radius: 0 0 15px 15px;
+  padding: 4px;
+  margin: 0 auto;
+}
+.App .music-icon {
+  width: 50px;
+  border-radius: 50%;
+}
+.App .plan {
+  background: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 5px;
+}
