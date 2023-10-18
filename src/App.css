@@ -1,51 +1,96 @@
 body {
-  font-family: "Fjalla One", sans-serif;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Outfit", sans-serif;
-  font-family: "Playfair Display", serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Red Hat Display", sans-serif;
-  font-family: "Roboto", sans-serif;
+  background-color: beige;
+}
+:root {
+  --primary-color: hsl(245, 75%, 52%);
+  --primary-font: "Outfit", sans-serif;
 }
 .App img {
   border-radius: 15px 15px 0 0;
+  width: 400px;
 }
 .App h1 {
   font-size: 28px;
   font-weight: bold;
-  font-family: "Outfit", sans-serif;
+  font-family: var(--primary-font);
   margin-top: 30px;
   margin-bottom: 0;
 }
+.App h5 {
+  font-size: 15px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+.App h6 {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 400;
+}
 .App p {
   font-size: 15px;
+  font-weight: 400;
   line-height: 1.5;
-  opacity: 0.6;
+  opacity: 0.8;
   margin: 0px 20px 20px;
   padding: 35px;
   position: relative;
   top: -20px;
 }
+.App a {
+  font-family: var(--primary-font);
+  font-size: 13px;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+.App button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  background: hsl(245, 75%, 52%);
+  padding: 12px 100px;
+  border-radius: 10px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  position: relative;
+  top: -30px;
+}
 .App .container {
   text-align: center;
   width: 600px;
   padding: 20px;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 .App .order {
-  background-color: beige;
-  width: 450px;
+  background-color: white;
+  width: 400px;
   border-radius: 0 0 15px 15px;
-  padding: 4px;
+  padding: 10px;
   margin: 0 auto;
 }
 .App .music-icon {
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
 }
 .App .plan {
   background: hsl(225, 100%, 98%);
   border-radius: 10px;
-  padding: 5px;
+  width: 320px;
+  padding: 18px;
+  position: relative;
+  left: 30px;
+  top: -60px;
+}
+.App .annual {
+  position: relative;
+  left: -15px;
+}
+.App .cancel {
+  font-family: var(--primary-font);
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.7;
+  position: relative;
+  top: -10px;
+  margin-bottom: 20px;
 }

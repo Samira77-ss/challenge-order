@@ -22,14 +22,14 @@ function App() {
                   alt="MusicIcon"
                 />
               </div>
-              <div className="col-3">
+              <div className="col-3 annual">
                 {" "}
-                <h5>Annual Plan</h5>
+                <h5>Annual&nbsp;Plan</h5>
                 <h6>$59.99/year</h6>
               </div>
               <div className="col-6">
                 {" "}
-                <a href="#">change</a>
+                <a href="#">Change</a>
               </div>
             </div>
           </div>
