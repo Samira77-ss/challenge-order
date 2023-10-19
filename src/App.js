@@ -4,7 +4,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <img src="https://order-summary-component-mavix.netlify.app/images/illustration-hero.svg" />
+        <img
+          src="https://order-summary-component-mavix.netlify.app/images/illustration-hero.svg"
+          alt="music"
+        />
         <div className="order">
           <h1>Order Summary</h1>
           <p>
@@ -29,7 +32,7 @@ function App() {
               </div>
               <div className="col-6">
                 {" "}
-                <a href="#" className="change">
+                <a href="/" rel="noreferrer" className="change">
                   Change
                 </a>
               </div>
@@ -42,7 +45,7 @@ function App() {
         <footer>
           This page was coded by Samira Seyfi
           <a
-            href="https://github.com/Samira77-ss/challenge-nft"
+            href="https://github.com/Samira77-ss/challenge-order"
             target="_blank"
             alt="GithHub Profile"
             rel="noreferrer"

@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: hsl(225, 100%, 98%);
 }
 :root {
   --primary-color: hsl(245, 75%, 52%);
@@ -45,6 +45,11 @@ body {
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
   position: relative;
   top: -30px;
+  transition: all 0.25s ease;
+}
+.App button:hover {
+  color: var(--primary-color);
+  background-color: #fff;
 }
 .App footer {
   text-align: center;
@@ -99,4 +104,7 @@ body {
   position: relative;
   left: 40px;
   top: 10px;
+}
+.App .change:hover {
+  text-decoration: none;
 }
