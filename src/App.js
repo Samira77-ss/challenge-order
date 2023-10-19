@@ -54,7 +54,7 @@ function App() {
           </a>
           , and hosted on
           <a
-            href="https://subtle-cupcake-3c2898.netlify.app"
+            href="https://resonant-medovik-e01702.netlify.app"
             alt="Netlify link"
             target="_blank"
             rel="noreferrer"
