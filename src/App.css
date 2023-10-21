@@ -1,5 +1,7 @@
 body {
   background-color: hsl(225, 100%, 98%);
+
+  background-color: hsl(225, 100%, 94%);
 }
 :root {
   --primary-color: hsl(245, 75%, 52%);
@@ -62,6 +64,8 @@ body {
   width: 600px;
   padding: 20px;
   margin: 50px auto;
+  position: relative;
+  top: -450px;
 }
 .App .order {
   background-color: white;
@@ -107,4 +111,7 @@ body {
 }
 .App .change:hover {
   text-decoration: none;
+}
+.App .bg-pc {
+  width: 100%;
 }

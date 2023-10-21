@@ -3,6 +3,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <img
+        src="https://order-summary-component-avi.netlify.app/images/pattern-background-desktop.svg"
+        className="bg-pc"
+      />
       <div className="container">
         <img
           src="https://order-summary-component-mavix.netlify.app/images/illustration-hero.svg"
