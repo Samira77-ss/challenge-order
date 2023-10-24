@@ -13,11 +13,12 @@ function App() {
         className="bg-mobile"
         alt="bg-mobile"
       />
-      "
+
       <div className="card">
         <img
           src="https://order-summary-component-mavix.netlify.app/images/illustration-hero.svg"
           alt="music"
+          className="img-fluid"
         />
         <div className="order">
           <h1>Order Summary</h1>
@@ -31,15 +32,21 @@ function App() {
               {" "}
               <div className="col-3">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrg_Ng-Teh2gyKiwTDCMrbsAu3BRBubrc3w&usqp=CAU"
+                  src="https://zesty-pegasus-444692.netlify.app/images/icon-music.svg
+"
                   className="music-icon"
                   alt="MusicIcon"
                 />
               </div>
               <div className="col-3 annual">
                 {" "}
-                <h5>Annual Plan</h5>
-                <h6>$59.99/year</h6>
+                <h5>
+                  {" "}
+                  Annual <span className="span-plan">Plan</span>
+                </h5>
+                <h6>
+                  $59.99/ <span className="span-year">year</span>
+                </h6>
               </div>
               <div className="col-6">
                 {" "}
