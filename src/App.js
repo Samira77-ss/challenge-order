@@ -32,8 +32,7 @@ function App() {
               {" "}
               <div className="col-3">
                 <img
-                  src="https://zesty-pegasus-444692.netlify.app/images/icon-music.svg
-"
+                  src="https://zesty-pegasus-444692.netlify.app/images/icon-music.svg"
                   className="music-icon"
                   alt="MusicIcon"
                 />
