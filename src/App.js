@@ -18,7 +18,7 @@ function App() {
         <img
           src="https://order-summary-component-mavix.netlify.app/images/illustration-hero.svg"
           alt="music"
-          className="img-fluid"
+          className="music"
         />
         <div className="order">
           <h1>Order Summary</h1>

@@ -6,8 +6,8 @@ body {
   --primary-font: "Outfit", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
 }
-.App img {
-  width: 400px;
+.App .music {
+  width: 450px;
 }
 .App h1 {
   font-size: 28px;
