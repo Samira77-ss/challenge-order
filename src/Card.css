@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  margin-top: 320px;
+  font-size: 12px;
+}
+.card h2 {
+  font-size: 2.5rem;
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.card p {
+  font-size: 1.5rem;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.card button {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 60px;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.card button:hover {
+  opacity: 0.7;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+}
+
+.card a {
+  font-size: 1.3rem;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.card a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+.card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 88%;
+  width: 45vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: clamp(100px, 95%, 40rem);
+}
+.card .image {
+  width: 100%;
+  display: block;
+}
+.card .content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+.card .order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(224, 232, 255, 0.4);
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 25px;
+}
+.card .leftSide {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+}
+
+.cancelOrder {
+  font-size: 1.4rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.cancelOrder:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.card .plan {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  font-size: 1.3rem;
+}
+.card .annual {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.card .year {
+  color: hsl(224, 23%, 55%);
+}
+
+.container {
+  width: 100vw;
+}
+.bg-pc {
+  width: 100%;
+  height: 50vh;
+}
+
+.bg-mobile {
+  display: none;
+}
+#root {
+  width: 100%;
+}
+@media screen and (max-width: 375px) {
+  .bg-pc {
+    display: none;
+  }
+
+  .bg-mobile {
+    display: block;
+    width: 100%;
+  }
+}
