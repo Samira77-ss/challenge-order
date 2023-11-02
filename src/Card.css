@@ -101,11 +101,9 @@ footer {
   align-items: center;
   justify-content: space-between;
   background-color: rgba(224, 232, 255, 0.4);
-  width: 300px;
-  padding: 15px;
+
+  padding: 10px;
   border-radius: 10px;
-  position: relative;
-  left: 25px;
 }
 .card .leftSide {
   display: flex;
