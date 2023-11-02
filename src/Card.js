@@ -26,7 +26,7 @@ function Card() {
                 <span className="year">$59.99/year</span>
               </div>
             </div>
-            <a href="#">Change</a>
+            <a href="/">Change</a>
           </div>
           <button className="btn">Proceed to Payment</button>
           <p className="cancelOrder">Cancel Order</p>
